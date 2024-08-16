@@ -1,7 +1,9 @@
+# Analysis Report: https://medium.com/@dornubari.bariboloka/lagos-state-flood-prediction-analysis-201ad3c39f17?source=user_profile---------1----------------------------
+
 import pandas as pd
 
 # Load the dataset
-file_path = 'C:\\Users\\dornu\\Lagos Flood Data.xlsx'
+file_path = 'C:\\Users\\Lagos Flood Data.xlsx'
 lagos_rain_data = pd.read_excel(file_path)
 
 
