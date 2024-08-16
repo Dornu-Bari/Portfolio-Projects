@@ -43,7 +43,7 @@ data['outlier'] = (np.abs(data['zscore_APC']) > zscore_threshold) | \
                   (np.abs(data['zscore_NNPP']) > zscore_threshold)
 
 # Update dataset with outliers
-output_file_path = 'C:\\Users\\dornu\\WITH_OUTLIERS_DATA.csv'
+output_file_path = 'C:\\Users\\WITH_OUTLIERS_DATA.csv'
 data.to_csv(output_file_path, index=False)
 
 # Print outliers
