@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from scipy.stats import zscore
 
 # Load the dataset
-file_path = 'C:\\Users\\dornu\\YOBE CLUSTER DATA.xlsx'
+file_path = 'C:\\Users\\YOBE CLUSTER DATA.xlsx'
 data = pd.read_excel(file_path)
 
 # Assuming your dataset has 'Latitude' and 'Longitude' columns
@@ -66,7 +66,7 @@ plt.legend()
 plt.grid(True)
 
 # Save viz
-plot_file_path = 'C:\\Users\\dornu\\Outlier.png'
+plot_file_path = 'C:\\Users\\Outlier.png'
 plt.savefig(plot_file_path)
 print(f"Cluster plot saved to '{plot_file_path}'.")
 
@@ -74,6 +74,6 @@ print(f"Cluster plot saved to '{plot_file_path}'.")
 plt.show()
 
 # Export the clustered data
-output_excel_file_path = 'C:\\Users\\dornu\\CLUSTERED_DATA.xlsx'
+output_excel_file_path = 'C:\\Users\\CLUSTERED_DATA.xlsx'
 data.to_excel(output_excel_file_path, index=False)
 print(f"Clustered data exported to '{output_excel_file_path}'.")
